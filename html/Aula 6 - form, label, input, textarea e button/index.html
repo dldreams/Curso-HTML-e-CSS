@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>form, label, input, textarea e button</title>
+</head>
+<body>
+  <h1>Crie sua conta</h1>
+
+  <!-- A tag <form> cria um formulario em HTML -->
+  <!-- Dentro dela você pode colocar campos de texto, botões etc -->
+  <!-- * Mostrar exemplos de formulário * -->
+  <form>
+
+    <!-- A tag <label> define um "rótulo" ou "título" para um <input> -->
+    <label for="seu-nome">Seu nome</label>
+    <!-- A tag <input> especifíca um campo de texto para o usuário digitar -->
+    <!-- Ele é a tag mais importante de um <form> -->
+    <!-- A tag input tem vário tipos, como text, email, password, number etc -->
+    <input type="text" name="seu-nome" />
+
+    <br />
+    <br />
+
+    <!-- Mais exemplos -->
+    <label for="seu-telefone">Seu número de telefone</label>
+    <input type="number" name="seu-telefone" />
+
+    <br />
+    <br />
+
+    <label for="data-de-nascimento">Data de nascimento</label>
+    <input type="date" name="data-de-nascimento" />
+
+    <br />
+    <br />
+
+    <label for="seu-genero">Seu gênero</label>
+    <br />
+    
+    <input type="radio" name="seu-genero" value="Masculino" />
+    <label for="Masculino">Masculino</label>
+    <br />
+
+    <input type="radio" name="seu-genero" value="Feminino" />
+    <label for="Feminino">Feminino</label>
+    <br />
+    
+    <input type="radio" name="seu-genero" value="Outro" />
+    <label for="Outro">Outro</label>
+    
+    <br />
+    <br />
+
+    <label for="seu-email">Seu email</label>
+    <input type="email" name="seu-email" />
+
+    <br />
+    <br />
+
+    <label for="sua-senha">Sua senha</label>
+    <input type="password" name="sua-senha" />
+    
+    <br />
+    <br />
+
+    <label for="receber-email">Deseja receber nossos emails?</label>
+    <input type="checkbox" name="receber-email" />
+
+    <br />
+    <br />
+
+    <!-- O <textarea> define um <input> com varias linhas -->
+    <!-- Ele só tem o tipo texto -->
+    <label for="sobre-voce">Descrição sobre você</label>
+    <textarea name="sobre-voce"></textarea>
+
+    <br />
+    <br />
+    <br />
+
+    <!-- A tag <button> define botão clicável no seu site -->
+    <!-- Dentro de um botão nós podemos colcoar tags como <img>, <br>, <p> etc -->
+    <button type="button">Criar conta</button>
+  </form>
+</body>
+</html>

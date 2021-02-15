@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <title>img, video e iframe</title>
+</head>
+<body>
+  <!-- A tag <img> é usada para mostrar uma imagem em HTML -->
+  <!-- Essa tag tem 2 atributos obrigatórios: src e alt -->
+    <!-- O src serve para dizer a tag <img> qual a imagem eu quero que ela mostre -->
+    <!-- O alt é um texto alternativo para a imagem, se a imagem por algum motivo não conseguir carregar -->
+  
+  <!-- Você pode passar a url de uma imagem ou o caminho para alguma imagem dentro da sua aplicação -->
+  <!-- A tag pode receber o atributo height para definir a altura da imagem e o width para definir a largura -->
+  <!-- A tag não tem fechamento -->
+  
+  <!-- Imagem com url -->
+  <img src="https://i.redd.it/tj8tljzjx2g51.png" alt="Ednaldo pereira achatado" height="200" width="200" />
+
+  <!-- Imagem dentro da aplicação -->
+  <img src="./ednaldo-shelby.jpg" alt="Ednaldo Shelby" height="300" width="280" />
+
+  <!-- Imagem que não carrega -->
+  <img src="nãocarrega.png" alt="Imagem que não está carregando D:" />
+
+  <br />
+  <br />
+  <br />
+  <br />
+
+  <!-- A tag <video> é usada para mostrar um video no seu site -->
+  <!-- Essa tag pode conter uma ou mais tags <source> com diferentes formatos de video -->
+  <!-- A tag precisa de um texto entre o <video> e o </video> para mostrar quando não for possivel carregar o video -->
+  <!-- Os formatos suportados pela tag video são: MP4 WebM e OGG -->
+  <video width="250" controls>
+    <source src="./banido.mp4" type="video/mp4" />
+    Seu navegador não tem suporte a tag video
+  </video>
+
+  <!-- Outra forma de usar a tag vídeo -->
+  <video width="250" autoplay muted src="https://r3---sn-8p8v-bg0ld.googlevideo.com/videoplayback?expire=1613415644&ei=fHAqYNjZDNmjj-8Pg5qGiAk&ip=209.107.196.184&id=o-ABsnrSBu_ABdoit-LqHNbBXTzj3V73BET4eoqfkDGiKs&itag=18&source=youtube&requiressl=yes&vprv=1&mime=video%2Fmp4&ns=HpMmoVadgdpvEn7iHaI0WHoF&gir=yes&clen=7814840&ratebypass=yes&dur=84.683&lmt=1606568211648430&fvip=3&c=WEB&txp=5530422&n=YBbLYdXhgZDy37ysOS&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cvprv%2Cmime%2Cns%2Cgir%2Cclen%2Cratebypass%2Cdur%2Clmt&sig=AOq0QJ8wRQIgXtPzlhVoBg7uQ-g4mmImLon0melTzgm-tQSpVTzdz7ECIQDNnNdgTqAA9ZAE8IKowEVdnIMAd8Lybtm2rgg7BFV1Sg%3D%3D&redirect_counter=1&rm=sn-5uarz7s&req_id=6b51811e0647a3ee&cms_redirect=yes&ipbypass=yes&mh=MY&mip=2804:431:d729:b506:64ab:9c:de76:764a&mm=31&mn=sn-8p8v-bg0ld&ms=au&mt=1613393814&mv=m&mvi=3&pl=46&lsparams=ipbypass,mh,mip,mm,mn,ms,mv,mvi,pl&lsig=AG3C_xAwRAIgNlbC6068WhQsLdPZikKrE4biCIuX41qNRpGKwcCxKWMCIC1IkJWJ_I9T6gU_oEpARgpq2yY1QPYAUsjNaTQUw7Ou">
+    Seu navegador não tem suporte a tag video
+  </video>
+
+  <br />
+  <br />
+  <br />
+  <br />
+
+  <!-- A tag <iframe> serve para mostrar uma página de outro site dentro do seu site -->
+  <!-- Essa tag precisa de um src para saber o que vocÊ deseja mostrar -->
+  <!-- Ela é mais usada para mostrar videos do youtube -->
+  <iframe src="https://www.w3schools.com" title="W3Schools Free Online Web Tutorials"></iframe>
+
+  <iframe width="500" height="250" src="https://www.youtube.com/embed/2lkBFpyo1Mc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>
